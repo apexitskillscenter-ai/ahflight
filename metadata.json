@@ -1,0 +1,8 @@
+{
+  "name": "AH Flight - Pakistan Flight Booking & Travel Agency",
+  "description": "Authorized flight search, transparent fare comparison, and verified airline ticketing platform based in Pakistan with real-time itinerary management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

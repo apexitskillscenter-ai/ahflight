@@ -1,0 +1,297 @@
+{
+  "bookings": [
+    {
+      "id": "bk-khi-isb-001",
+      "pnr": "PK49Q2",
+      "supplierBookingReference": "PK-384910",
+      "status": "ticketed",
+      "isDemoBooking": true,
+      "offer": {
+        "id": "seed-offer-1",
+        "supplier": "sandbox",
+        "supplierOfferId": "SBOX-PK-482",
+        "tripType": "one-way",
+        "outboundSegments": [
+          {
+            "id": "seg-1",
+            "airlineCode": "PK",
+            "airlineName": "Pakistan International Airlines",
+            "flightNumber": "PK-300",
+            "aircraft": "Airbus A320-200",
+            "departureAirport": "KHI",
+            "departureCity": "Karachi",
+            "departureTime": "2026-10-26T07:00:00",
+            "departureTerminal": "Domestic T1",
+            "arrivalAirport": "ISB",
+            "arrivalCity": "Islamabad",
+            "arrivalTime": "2026-10-26T09:00:00",
+            "arrivalTerminal": "Terminal 1",
+            "durationMinutes": 120,
+            "cabinClass": "economy",
+            "checkedBaggage": "20 kg",
+            "cabinBaggage": "7 kg",
+            "mealProvided": true
+          }
+        ],
+        "totalOutboundDurationMinutes": 120,
+        "stopsOutbound": 0,
+        "layoversOutbound": [],
+        "pricing": {
+          "currency": "PKR",
+          "baseFare": 21500,
+          "taxesAirportCharges": 3440,
+          "supplierSurcharges": 1075,
+          "agencyServiceFee": 1500,
+          "totalAmount": 27515
+        },
+        "fareConditions": {
+          "refundable": true,
+          "cancellationPenaltyPKR": 4000,
+          "changeAllowed": true,
+          "changePenaltyPKR": 2500,
+          "seatSelectionIncluded": true,
+          "mealIncluded": true,
+          "checkedBaggage": "20 kg",
+          "cabinBaggage": "7 kg",
+          "fareClassCode": "Y-Economy"
+        },
+        "seatsRemaining": 4,
+        "validationToken": "SEED-VAL-1",
+        "isDemoData": true,
+        "lastUpdated": "2026-10-23T10:35:17.515Z"
+      },
+      "passengers": [
+        {
+          "id": "pax-1",
+          "type": "adult",
+          "title": "Mr",
+          "firstName": "Muhammad",
+          "lastName": "Ahmed",
+          "dateOfBirth": "1988-06-15",
+          "gender": "male",
+          "nationality": "PK",
+          "passportNumber": "BL8294012",
+          "passportExpiry": "2030-05-12",
+          "passportIssuingCountry": "PK",
+          "cnicNumber": "42201-1234567-1",
+          "ticketNumber": "214-4920194820",
+          "assignedSeat": "12A"
+        }
+      ],
+      "contact": {
+        "fullName": "Muhammad Ahmed",
+        "email": "ahmed.m@example.com",
+        "phoneCountryCode": "+92",
+        "phoneNumber": "3009283741",
+        "city": "Karachi"
+      },
+      "payment": {
+        "method": "payfast_card",
+        "transactionId": "PF-TXN-9284102",
+        "amount": 27515,
+        "currency": "PKR",
+        "paidAt": "2026-10-22T22:35:17.515Z",
+        "status": "paid",
+        "idempotencyKey": "IDEMP-92841-KHI"
+      },
+      "financials": {
+        "grossBookingValue": 27515,
+        "supplierNetRemittance": 22575,
+        "taxesAndAirportCharges": 3440,
+        "agencyServiceFee": 1500,
+        "agencyCommission": 645,
+        "promoDiscount": 0,
+        "paymentGatewayFee": 660,
+        "netProfit": 1485
+      },
+      "createdAt": "2026-10-22T22:35:17.515Z",
+      "updatedAt": "2026-10-22T22:35:17.515Z"
+    },
+    {
+      "id": "bk-khi-dxb-002",
+      "pnr": "EK79B1",
+      "supplierBookingReference": "EK-849201",
+      "status": "ticketed",
+      "isDemoBooking": true,
+      "offer": {
+        "id": "seed-offer-2",
+        "supplier": "sandbox",
+        "supplierOfferId": "SBOX-EK-921",
+        "tripType": "one-way",
+        "outboundSegments": [
+          {
+            "id": "seg-2",
+            "airlineCode": "EK",
+            "airlineName": "Emirates",
+            "flightNumber": "EK-601",
+            "aircraft": "Boeing 777-300ER",
+            "departureAirport": "KHI",
+            "departureCity": "Karachi",
+            "departureTime": "2026-10-28T12:00:00",
+            "departureTerminal": "Terminal 1",
+            "arrivalAirport": "DXB",
+            "arrivalCity": "Dubai",
+            "arrivalTime": "2026-10-28T13:20:00",
+            "arrivalTerminal": "Terminal 3",
+            "durationMinutes": 140,
+            "cabinClass": "economy",
+            "checkedBaggage": "30 kg (1 pc)",
+            "cabinBaggage": "7 kg Hand baggage",
+            "mealProvided": true
+          }
+        ],
+        "totalOutboundDurationMinutes": 140,
+        "stopsOutbound": 0,
+        "layoversOutbound": [],
+        "pricing": {
+          "currency": "PKR",
+          "baseFare": 78000,
+          "taxesAirportCharges": 17160,
+          "supplierSurcharges": 4680,
+          "agencyServiceFee": 4500,
+          "totalAmount": 104340
+        },
+        "fareConditions": {
+          "refundable": true,
+          "cancellationPenaltyPKR": 15000,
+          "changeAllowed": true,
+          "changePenaltyPKR": 9000,
+          "seatSelectionIncluded": true,
+          "mealIncluded": true,
+          "checkedBaggage": "30 kg",
+          "cabinBaggage": "7 kg",
+          "fareClassCode": "V-Flex"
+        },
+        "seatsRemaining": 5,
+        "validationToken": "SEED-VAL-2",
+        "isDemoData": true,
+        "lastUpdated": "2026-10-23T10:35:17.515Z"
+      },
+      "passengers": [
+        {
+          "id": "pax-2",
+          "type": "adult",
+          "title": "Mrs",
+          "firstName": "Fatima",
+          "lastName": "Zahra",
+          "dateOfBirth": "1992-11-20",
+          "gender": "female",
+          "nationality": "PK",
+          "passportNumber": "CA9104829",
+          "passportExpiry": "2029-08-14",
+          "passportIssuingCountry": "PK",
+          "ticketNumber": "176-9284109482",
+          "assignedSeat": "18K"
+        }
+      ],
+      "contact": {
+        "fullName": "Fatima Zahra",
+        "email": "fatima.z@example.com",
+        "phoneCountryCode": "+92",
+        "phoneNumber": "3219482710",
+        "city": "Karachi"
+      },
+      "payment": {
+        "method": "jazzcash",
+        "transactionId": "JC-84920194",
+        "amount": 104340,
+        "currency": "PKR",
+        "paidAt": "2026-10-22T06:35:17.515Z",
+        "status": "paid",
+        "idempotencyKey": "IDEMP-JC-DXB"
+      },
+      "financials": {
+        "grossBookingValue": 104340,
+        "supplierNetRemittance": 82680,
+        "taxesAndAirportCharges": 17160,
+        "agencyServiceFee": 4500,
+        "agencyCommission": 2340,
+        "promoDiscount": 0,
+        "paymentGatewayFee": 1250,
+        "netProfit": 5590
+      },
+      "createdAt": "2026-10-22T06:35:17.515Z",
+      "updatedAt": "2026-10-22T06:35:17.515Z"
+    }
+  ],
+  "feeRules": [
+    {
+      "id": "rule-domestic-fixed",
+      "name": "Pakistan Domestic Flights Service Fee",
+      "type": "fixed",
+      "amount": 1500,
+      "appliesTo": "domestic",
+      "isActive": true,
+      "updatedAt": "2026-10-23T10:35:17.515Z"
+    },
+    {
+      "id": "rule-intl-fixed",
+      "name": "International Flights Service Fee",
+      "type": "fixed",
+      "amount": 4500,
+      "appliesTo": "international",
+      "isActive": true,
+      "updatedAt": "2026-10-23T10:35:17.515Z"
+    },
+    {
+      "id": "rule-percentage-highfare",
+      "name": "Corporate & First Class Margin Rule",
+      "type": "percentage",
+      "amount": 2.5,
+      "appliesTo": "all",
+      "isActive": false,
+      "minFeePKR": 3000,
+      "maxFeePKR": 18000,
+      "updatedAt": "2026-10-23T10:35:17.515Z"
+    }
+  ],
+  "promoCodes": [
+    {
+      "code": "AHWELCOME",
+      "discountType": "fixed",
+      "discountValue": 2000,
+      "minBookingValuePKR": 20000,
+      "maxDiscountPKR": 2000,
+      "isActive": true,
+      "expiryDate": "2026-12-31",
+      "usageCount": 18
+    },
+    {
+      "code": "FLYPAKISTAN",
+      "discountType": "percentage",
+      "discountValue": 5,
+      "minBookingValuePKR": 15000,
+      "maxDiscountPKR": 4000,
+      "isActive": true,
+      "expiryDate": "2026-11-30",
+      "usageCount": 34
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1792751717520-nblc",
+      "timestamp": "2026-10-23T10:35:17.520Z",
+      "actor": "AutomatedTest",
+      "action": "Run Test Suite",
+      "category": "booking",
+      "details": "Automated regression test executed"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-21T10:35:17.515Z",
+      "actor": "SuperAdmin (apexitskillscenter@gmail.com)",
+      "action": "System Initialized",
+      "category": "auth",
+      "details": "AH Flight Agency management console deployed with Pakistan DTS compliance rules."
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-10-22T10:35:17.515Z",
+      "actor": "FinanceManager",
+      "action": "Service Fee Rules Configured",
+      "category": "pricing",
+      "details": "Configured domestic ticket fee PKR 1,500 and international fee PKR 4,500."
+    }
+  ],
+  "totalSearches": 142
+}
